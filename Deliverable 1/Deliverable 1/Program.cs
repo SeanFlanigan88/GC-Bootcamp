@@ -6,52 +6,50 @@ namespace Deliverable_1
     {
         static void Main(string[] args)
         {
-            //Declaring Variable
             int imperialInch = 1;
-            decimal milSpin = 3.5m;
             int imperialFoot = 1;
+            decimal milSpin = 3.5m;
             int milMeme = 5;
 
-            //Initial input, Measurement type
-            Console.WriteLine("Please enter a measurement type:");
-            Console.Write("(a) Inches    (b) Feet  ");
-            Console.Write("(c) Fidget Spinners  (d) Memes");
-            var type = Console.ReadLine();
+            Console.WriteLine("Please enter a measurement type " + 
+                "\na). Inch   b). Fidget Spinners " +
+                "\nc). Feet   d). Memes");
+            var input = Console.ReadLine();
 
-            //# Input for calculation
-            Console.WriteLine("Please enter a number :");
-            string unit = Console.ReadLine();
-            int num1 = int.Parse(unit);
-
-            //Algorithm for calculation
-            int total = (num1 * milSpin);
-
-            //'Loop' condition for continuous inputs if desired
-            switch (type)
+            switch(input)
             {
                 case "a":
-                    Console.WriteLine("");
+                    Console.WriteLine("Please enter a number ");
+                    string input1 = Console.ReadLine();
+                    int num1 = int.Parse(input1);
+                    int num11 = imperialInch;
+                    decimal num111 = milSpin;
+                    Console.WriteLine((num1 * num11) * num111);
                     break;
                 case "b":
-                    Console.WriteLine("");
+                    Console.WriteLine("Please enter a number ");
+                    string input2 = Console.ReadLine();
+                    int num2 = int.Parse(input2);
+                    decimal num22 = milSpin;
+                    Console.WriteLine(num22 * num2);
                     break;
                 case "c":
-                    Console.WriteLine();
+                    Console.WriteLine("Please enter a number ");
+                    string input3 = Console.ReadLine();
+                    int num3 = int.Parse(input3);
+                    int num33 = imperialFoot;
+                    int num333 = milMeme;
+                    Console.WriteLine((num3 * num33) * num333);
                     break;
                 case "d":
-                    Console.WriteLine();
-                    break;
-                default:
-
+                    Console.WriteLine("Please enter a number");
+                    string input4 = Console.ReadLine();
+                    int num4 = int.Parse(input4);
+                    int num44 = milMeme;
+                    Console.WriteLine(num44 * num4);
                     break;
             }
-            do
-            {
-                //program here
-                //ask user if they would like to go through the program again
-                Console.WriteLine("Would you like to try again (y/n)");
-                var temp = Console.ReadLine().ToLower();
-            } while (temp == y);
+
         }
     }
 }
