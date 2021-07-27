@@ -12,13 +12,15 @@ namespace Deliverable_1
             int milMeme = 5;
             string response = null;
 
-            Console.WriteLine("Please enter a measurement type " +
+            do 
+            { 
+                Console.WriteLine("Please enter a measurement type " +
                 "\na). Inch   b). Fidget Spinners " +
                 "\nc). Feet   d). Memes");
-            var input = Console.ReadLine();
+                var input = Console.ReadLine();
 
-            do
-            { switch (input)
+            
+                switch (input)
                 {
                     case "a":
                         Console.WriteLine("Please enter a number in Inches");
