@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\SFlanigan1\\GC-Bootcamp\\Deliverable 1\\Deliverable 1\\Deliverable 1.csproj",
+      "projectUniqueName": "C:\\Users\\SFlanigan1\\Source\\Repos\\SeanFlanigan88\\GC-Bootcamp\\Deliverable 1\\Deliverable 1\\Deliverable 1.csproj",
       "projectName": "Deliverable 1",
-      "projectPath": "C:\\Users\\SFlanigan1\\GC-Bootcamp\\Deliverable 1\\Deliverable 1\\Deliverable 1.csproj",
+      "projectPath": "C:\\Users\\SFlanigan1\\Source\\Repos\\SeanFlanigan88\\GC-Bootcamp\\Deliverable 1\\Deliverable 1\\Deliverable 1.csproj",
       "packagesPath": "C:\\Users\\SFlanigan1\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\SFlanigan1\\GC-Bootcamp\\Deliverable 1\\Deliverable 1\\obj\\",
+      "outputPath": "C:\\Users\\SFlanigan1\\Source\\Repos\\SeanFlanigan88\\GC-Bootcamp\\Deliverable 1\\Deliverable 1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\SFlanigan1\\AppData\\Roaming\\NuGet\\NuGet.Config",
